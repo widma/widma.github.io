@@ -1,0 +1,195 @@
+@font-face {
+font-family: LeagueSpartan-Bold;
+font-weight: bold;
+src: url("fonts/LeagueSpartan-Bold.otf") format("opentype");
+}
+
+html, body {
+    width: 100%;
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#splash {
+    padding: 0px;
+    margin: 0px auto;
+    padding-top: 2rem;
+    text-align: center;
+    background: url(imgs/bgblack.svg);
+}
+.bg-orange {
+    background: url(imgs/bg.svg);
+    background-size: contain;
+    height: 100%;
+    color: white;
+}
+#splash.bg-orange {
+    padding-top: 0;
+    background: url(imgs/bg.svg);
+}
+.bg-orange #splashtitle {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#splashtitle {
+    font-family: LeagueSpartan-Bold;
+    display: inline-block;
+    text-align: right;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    padding: 0px;
+}
+#splashtitle h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: -1rem;
+}
+
+.navbar {
+    text-align: center;
+    paddin: 0;
+}
+.navbar.decked {
+    border-top: 1px solid #FF6666;
+}
+.navbar ul {
+    display: block;
+    list-style-type: none;
+    margin-top: 1rem;
+    padding: 0px;
+}
+.navbar ul li {
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.orange-link {
+    color: #FF6666;
+}
+a:hover {
+    color: #FF6666;
+}
+.navbar a.current {
+    color: #FF6666;
+}
+
+.content {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: justify;
+    font-size: 1rem;
+    font-family: serif;
+    /*border: 1px solid black;*/
+}
+.content h2 {
+    font-family: LeagueSpartan-Bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 0;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    /*border: 1px solid red;*/
+}
+.content h3 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    /*border: 1px solid green;*/
+    
+}
+.content h4 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    /*border: 1px solid blue;*/
+}
+.content h5 {
+    font-family: monospace;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+.content p {
+    line-height: 1.3rem;
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0;
+}
+.content .right-align {
+    text-align: right;
+}
+.content .center-align {
+    text-align: center;
+}
+.poem {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.poem .header {
+    text-align: left;
+    background: url(imgs/bgpoem.svg);
+    height: 5.5rem;
+    margin-bottom: 2rem;
+}
+.poem .header h3 {
+    margin: 0;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    font-family: LeagueSpartan-Bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+    color: white;
+}
+.poem .poem-body {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    display: inline-block;
+}
+.poem .separator {
+    margin-top: -1.5rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #FF6666;
+}
+img {
+    border: 1px #FF6666 solid;
+    margin: 1rem 0;
+}
+#footer {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+#footer p {
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+@media (min-width: 750px) {
+    .bg-orange {
+        height: calc(100% - 4rem);
+    }
+    .navbar ul li {
+        display: inline;
+        padding: 0 2rem;
+        margin: 0;
+        border-right: 1px solid black;
+    }
+    .navbar ul li:last-of-type {
+        border-right: 0px;
+    }
+}
