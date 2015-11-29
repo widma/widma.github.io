@@ -1,7 +1,7 @@
 @font-face {
 font-family: LeagueSpartan-Bold;
 font-weight: bold;
-src: url("fonts/LeagueSpartan-Bold.otf") format("opentype");
+src: url("../fonts/LeagueSpartan-Bold.otf") format("opentype");
 }
 
 html, body {
@@ -17,17 +17,17 @@ html, body {
     margin: 0px auto;
     padding-top: 2rem;
     text-align: center;
-    background: url(imgs/bgblack.svg);
+    background: url(../imgs/bgblack.svg);
 }
 .bg-orange {
-    background: url(imgs/bg.svg);
+    background: url(../imgs/bg.svg);
     background-size: contain;
     height: 100%;
     color: white;
 }
 #splash.bg-orange {
     padding-top: 0;
-    background: url(imgs/bg.svg);
+    background: url(../imgs/bg.svg);
 }
 .bg-orange #splashtitle {
     position: relative;
@@ -141,7 +141,7 @@ a:hover {
 }
 .poem .header {
     text-align: left;
-    background: url(imgs/bgpoem.svg);
+    background: url(../imgs/bgpoem.svg);
     height: 5.5rem;
     margin-bottom: 2rem;
 }
