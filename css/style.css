@@ -149,9 +149,8 @@ a:hover {
     margin: 0;
     padding-top: 1rem;
     padding-left: 1rem;
+    font-size: 1rem;
     font-family: LeagueSpartan-Bold;
-    font-size: 1.2rem;
-    letter-spacing: 0.1em;
     color: white;
 }
 .poem .poem-body {
@@ -195,5 +194,7 @@ img {
     .poem .header h3 {
         padding-top: 1.5rem;
         padding-left: 1.5rem;
+        font-size: 1.2rem;
+        letter-spacing: 0.1em;
     }
 }
