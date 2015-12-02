@@ -179,17 +179,20 @@ p {
     height: 6rem;
     overflow: hidden;
 }
-.poem .header .biolink {
-    padding-left: 1rem;
-}
 .poem .header .biolink:hover {
     color: white;
 }
-.poem .header h3 {
+.poem .header .name {
     margin: 0;
     padding-top: 1rem;
     padding-left: 1rem;
 }
+.poem .header .biolink {
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: LeagueSpartan-Bold;
+}
+
 .poem .bio {
     display: none;
     text-align: justify;
@@ -242,16 +245,16 @@ p {
         margin-bottom: 0rem;
     }
     
-    .poem .header h3 {
+    .poem .header .name {
         padding-top: 1.5rem;
-        padding-left: 1.5rem;
+        padding-left: 0;
+        margin-left: 1.5rem;
         font-size: 1.2rem;
         letter-spacing: 0.1em;
     }
     .poem .header .biolink {
-        padding-left: 1.5rem;
+        margin-left: 1.5rem;
     }
-    
     #toc .left {
         text-align: right;
     }
