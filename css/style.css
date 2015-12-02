@@ -13,8 +13,8 @@ html, body {
 }
 
 /*IMAGES*/
-img .border {
-    border: 1px #FF6666 solid;
+img.border {
+    border: 1px solid #FF6666;
 }
 
 /*HEADERS*/
@@ -151,10 +151,13 @@ p {
     border-bottom: 1px solid #FF6666;
 }
 .addspace {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+.addslimspace {
+    margin-bottom: .5rem;
 }
 #toc {
-    text-align: center;
+    text-align: left;
 }
 #toc .underline {
     padding-bottom: 1rem;
@@ -162,15 +165,18 @@ p {
 }
 #toc .poemtitle {
     line-height: 1.2rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-transform: lowercase;
     font-variant: small-caps;
+}
+.highlight {
+    font-family: LeagueSpartan-Bold;
+    margin-bottom: -.3rem;
 }
 .poem {
     text-align: center;
     margin: 0 auto;
 }
-
 .poem .header {
     /*border: 1px solid blue;*/
     color: white;
@@ -179,9 +185,6 @@ p {
     height: 6rem;
     overflow: hidden;
 }
-.poem .header .biolink:hover {
-    color: white;
-}
 .poem .header .name {
     margin: 0;
     padding-top: 1rem;
@@ -189,11 +192,14 @@ p {
     font-size: 1rem;
 }
 .poem .header .biolink {
+    color: black;
     margin-left: 1rem;
     font-size: .9rem;
     font-family: LeagueSpartan-Bold;
 }
-
+.poem .header .biolink:hover {
+    color: white;
+}
 .poem .bio {
     display: none;
     text-align: justify;
@@ -245,7 +251,9 @@ p {
         margin-right: 1rem;
         margin-bottom: 0rem;
     }
-    
+    .addslimspace {
+        margin-bottom: 0.2rem;
+    }
     .poem .header .name {
         padding-top: 1.5rem;
         padding-left: 0;
@@ -256,6 +264,9 @@ p {
     .poem .header .biolink {
         margin-left: 1.5rem;
         font-size: 1rem;
+    }
+    #toc {
+        text-align: center;
     }
     #toc .left {
         text-align: right;
