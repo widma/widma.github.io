@@ -13,7 +13,7 @@ html, body {
 }
 
 /*IMAGES*/
-img {
+img .border {
     border: 1px #FF6666 solid;
 }
 
@@ -215,6 +215,9 @@ p {
     margin-bottom: 1rem;
     padding: 0;
 }
+#fb_icon {
+    width: 40px;
+}
 
 /* FOR ALL DEVICES LARGER THAN 550px wide*/
 @media (min-width: 550px) {
@@ -238,12 +241,6 @@ p {
         margin-right: 1rem;
         margin-bottom: 0rem;
     }
-    
-    /*.poem .profilepic {
-        float: right;
-        margin-right: 0rem;
-        margin-left: 1rem;
-    }*/
     
     .poem .header h3 {
         padding-top: 1.5rem;
