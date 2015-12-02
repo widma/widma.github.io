@@ -186,10 +186,11 @@ p {
     margin: 0;
     padding-top: 1rem;
     padding-left: 1rem;
+    font-size: 1rem;
 }
 .poem .header .biolink {
     margin-left: 1rem;
-    font-size: 1rem;
+    font-size: .9rem;
     font-family: LeagueSpartan-Bold;
 }
 
@@ -254,6 +255,7 @@ p {
     }
     .poem .header .biolink {
         margin-left: 1.5rem;
+        font-size: 1rem;
     }
     #toc .left {
         text-align: right;
