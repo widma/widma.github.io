@@ -6,69 +6,43 @@ src: url("../fonts/LeagueSpartan-Bold.otf") format("opentype");
 
 html, body {
     width: 100%;
-    font-size: 1rem;
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
+    font-size: 1rem;
 }
 
-#splash {
-    padding: 0px;
-    margin: 0px auto;
-    padding-top: 2rem;
-    text-align: center;
-    background: url(../imgs/bgblack.svg);
-}
-.bg-orange {
-    background: url(../imgs/bg.svg);
-    background-size: contain;
-    height: 100%;
-    color: white;
-}
-#splash.bg-orange {
-    padding-top: 0;
-    background: url(../imgs/bg.svg);
-}
-.bg-orange #splashtitle {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+/*IMAGES*/
+img {
+    border: 1px #FF6666 solid;
 }
 
-#splashtitle {
+/*HEADERS*/
+h1, h2, h3, h4 {
     font-family: LeagueSpartan-Bold;
-    display: inline-block;
-    text-align: right;
-    margin: 0 auto;
-    font-size: 0.8rem;
-    padding: 0px;
-}
-#splashtitle h1 {
     text-transform: uppercase;
+    margin-bottom: 0px;
+}
+h1, h2 {
+    margin-top: 0;
+}
+h1 {
     font-size: 5rem;
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: -1rem;
 }
-
-.navbar {
-    text-align: center;
-    paddin: 0;
+h2 {
+    font-size: 2rem;
 }
-.navbar.decked {
-    border-top: 1px solid #FF6666;
-}
-.navbar ul {
-    display: block;
-    list-style-type: none;
-    margin-top: 1rem;
-    padding: 0px;
-}
-.navbar ul li {
-    font-family: monospace;
+h3 {
     font-size: 1.5rem;
+    margin-top: 0rem;
 }
+h4 {
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+/*END HEADERS*/
 
+/*LINK STYLING*/
 a {
     color: black;
     text-decoration: none;
@@ -79,95 +53,159 @@ a {
 a:hover {
     color: #FF6666;
 }
-.navbar a.current {
+a.current {
     color: #FF6666;
 }
+/*END LINK STYLING*/
 
-.content {
+/*Utilities*/
+.right-align {
+    text-align: right;
+}
+.center-align {
+    text-align: center;
+}
+/*END UTILITIES*/
+
+/*GENERAL*/
+.container {
     margin-top: 3rem;
     margin-bottom: 3rem;
     text-align: justify;
-    font-size: 1rem;
-    font-family: serif;
-    /*border: 1px solid black;*/
+    font-family: Times;
 }
-.content h2 {
-    font-family: LeagueSpartan-Bold;
-    text-transform: uppercase;
-    font-size: 2rem;
-    padding: 0;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    /*border: 1px solid red;*/
-}
-.content h3 {
-    font-family: sans-serif;
-    text-transform: uppercase;
-    font-size: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 0rem;
-    /*border: 1px solid green;*/
-    
-}
-.content h4 {
-    font-family: sans-serif;
-    text-transform: uppercase;
-    font-size: 1rem;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    /*border: 1px solid blue;*/
-}
-.content h5 {
-    font-family: monospace;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    padding: 0;
-}
-.content p {
-    line-height: 1.3rem;
+p {
+    line-height: 1.5rem;
     margin: 0;
     margin-top: 1rem;
     padding: 0;
 }
-.content .right-align {
-    text-align: right;
-}
-.content .center-align {
+/*END GENERAL*/
+
+/*SPLASH + LOGO*/
+#splash {
+    padding: 0px;
+    margin: 0px auto;
+    padding-top: 2rem;
     text-align: center;
+    background: url(../imgs/bgblack.svg);
+}
+#splash.bg-orange {
+    padding-top: 0;
+    background: url(../imgs/bg.svg);
+    background-size: contain;
+    height: 100%;
+    color: white;
+}
+#splashtitle {
+    display: inline-block;
+    text-align: right;
+    margin: 0 auto;
+    font-family: LeagueSpartan-Bold;
+    font-size: 0.8rem;
+    padding: 0px;
+}
+#splashtitle h1 {
+    margin-bottom: -1rem;
+}
+.bg-orange #splashtitle {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*END SPLASH + LOGO*/
+
+/*NAVBAR*/
+.navbar {
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.navbar.decked {
+    border-top: 1px solid #FF6666;
+}
+.navbar ul {
+    display: block;
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0px;
+}
+.navbar ul li {
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+/*END NAVBAR*/
+
+/*STAFF PAGE*/
+.profilepic {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+/*END STAFF PAGE*/
+
+/*CURRENT ISSUE PAGE*/
+.underline {
+    border-bottom: 1px solid #FF6666;
+}
+.addspace {
+    margin-bottom: 1rem;
+}
+#toc {
+    text-align: center;
+}
+#toc .underline {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+#toc .poemtitle {
+    line-height: 1.2rem;
+    font-size: 1.2rem;
+    text-transform: lowercase;
+    font-variant: small-caps;
 }
 .poem {
     text-align: center;
-    margin-bottom: 2rem;
+    margin: 0 auto;
 }
+
 .poem .header {
+    /*border: 1px solid blue;*/
+    color: white;
     text-align: left;
     background: url(../imgs/bgpoem.svg);
-    height: 5.5rem;
-    margin-bottom: 2rem;
+    height: 6rem;
+    overflow: hidden;
+}
+.poem .header .biolink {
+    padding-left: 1rem;
+}
+.poem .header .biolink:hover {
+    color: white;
 }
 .poem .header h3 {
     margin: 0;
     padding-top: 1rem;
     padding-left: 1rem;
-    font-size: 1rem;
-    font-family: LeagueSpartan-Bold;
-    color: white;
+}
+.poem .bio {
+    display: none;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 .poem .poem-body {
     text-align: left;
     margin: 0 auto;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
     display: inline-block;
 }
-.poem .separator {
-    margin-top: -1.5rem;
-    margin-bottom: 3rem;
-    border-bottom: 1px solid #FF6666;
-}
-img {
-    border: 1px #FF6666 solid;
-    margin: 1rem 0;
-}
+/*END CURRENT ISSUE PAGE*/
+
+/*FOOTER*/
 #footer {
     text-align: center;
     margin: 0 auto;
@@ -178,8 +216,9 @@ img {
     padding: 0;
 }
 
-@media (min-width: 750px) {
-    .bg-orange {
+/* FOR ALL DEVICES LARGER THAN 550px wide*/
+@media (min-width: 550px) {
+    #splash.bg-orange {
         height: calc(100% - 4rem);
     }
     .navbar ul li {
@@ -191,10 +230,35 @@ img {
     .navbar ul li:last-of-type {
         border-right: 0px;
     }
+    
+    .profilepic {
+        width: 15%;
+        height: auto;
+        float: left;
+        margin-right: 1rem;
+        margin-bottom: 0rem;
+    }
+    
+    /*.poem .profilepic {
+        float: right;
+        margin-right: 0rem;
+        margin-left: 1rem;
+    }*/
+    
     .poem .header h3 {
         padding-top: 1.5rem;
         padding-left: 1.5rem;
         font-size: 1.2rem;
         letter-spacing: 0.1em;
+    }
+    .poem .header .biolink {
+        padding-left: 1.5rem;
+    }
+    
+    #toc .left {
+        text-align: right;
+    }
+    #toc .right {
+        text-align: left;
     }
 }
