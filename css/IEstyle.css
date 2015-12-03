@@ -9,9 +9,7 @@ html, body {
 .bg-orange #splashtitle {
     color: white;
     position: relative;
-    top: -webkit-calc(50% - 3rem);
-    top: -moz-calc(50% - 3rem);
-    top: calc(50% - 3rem);
+    top: 200px;
 }
 #splash.bg-orange {
     width: 100%;
