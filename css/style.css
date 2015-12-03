@@ -97,7 +97,6 @@ p {
     height: 100%;
 }
 #splashtitle {
-    color: white;
     display: inline-block;
     text-align: right;
     margin: 0 auto;
@@ -108,12 +107,12 @@ p {
     margin-bottom: -1rem;
 }
 #splashtitle .slogan {
-    color: white;
     margin-top: 0;
     font-family: LeagueSpartan-Bold;
     font-size: 0.8rem;
 }
 .bg-orange #splashtitle {
+    color: white;
     position: relative;
     top: -webkit-calc(50% - 3rem);
     top: -moz-calc(50% - 3rem);
