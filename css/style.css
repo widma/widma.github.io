@@ -173,6 +173,9 @@ p {
     font-family: LeagueSpartan-Bold;
     margin-bottom: -.3rem;
 }
+.greyed {
+    opacity: 0.8;
+}
 .poem {
     text-align: center;
     margin: 0 auto;
