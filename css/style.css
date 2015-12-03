@@ -85,6 +85,7 @@ p {
 
 /*SPLASH + LOGO*/
 #splash {
+    position: relative;
     padding: 0px;
     margin: 0px auto;
     padding-top: 2rem;
@@ -101,6 +102,7 @@ p {
     height: 100%;
 }
 #splashtitle {
+    border: 1px solid blue;
     display: inline-block;
     text-align: right;
     margin: 0 auto;
