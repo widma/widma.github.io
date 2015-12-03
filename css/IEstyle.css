@@ -1,5 +1,6 @@
 #splash.bg-orange {
-    width: 100%;
+    color: blue;
+    width: 50%;
     height: 100%;
     height: -webkit-calc(100% - 4rem);
     height: -moz-calc(100% - 4rem);
