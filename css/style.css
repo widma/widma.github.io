@@ -102,7 +102,6 @@ p {
     height: 100%;
 }
 #splashtitle {
-    border: 1px solid blue;
     display: inline-block;
     text-align: right;
     margin: 0 auto;
