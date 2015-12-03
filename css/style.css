@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'league_spartanregular';
+    font-family: 'LeagueSpartan';
     src: url('../fonts/leaguespartan-bold-webfont.eot');
     src: url('../fonts/leaguespartan-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/leaguespartan-bold-webfont.woff2') format('woff2'),
@@ -26,7 +26,7 @@ img.border {
 
 /*HEADERS*/
 h1, h2, h3, h4 {
-    font-family: LeagueSpartan-Bold;
+    font-family: LeagueSpartan;
     text-transform: uppercase;
     margin-bottom: 0px;
 }
@@ -119,7 +119,7 @@ p {
 }
 #splashtitle .slogan {
     margin-top: 0;
-    font-family: LeagueSpartan-Bold;
+    font-family: LeagueSpartan;
     font-size: 0.8rem;
 }
 .bg-orange #splashtitle {
@@ -149,7 +149,7 @@ p {
 }
 .navbar ul li {
     /*font-family: monospace;*/
-    font-family: LeagueSpartan-Bold;
+    font-family: LeagueSpartan;
     font-size: 1rem;
 }
 /*END NAVBAR*/
@@ -187,7 +187,7 @@ p {
     font-variant: small-caps;
 }
 .highlight {
-    font-family: LeagueSpartan-Bold;
+    font-family: LeagueSpartan;
     margin-bottom: -.3rem;
 }
 .greyed {
@@ -217,7 +217,7 @@ p {
     color: black;
     margin-left: 1rem;
     font-size: .9rem;
-    font-family: LeagueSpartan-Bold;
+    font-family: LeagueSpartan;
 }
 .poem .header .biolink:hover {
     color: white;
