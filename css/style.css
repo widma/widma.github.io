@@ -2,10 +2,11 @@
     font-family: 'LeagueSpartan';
     src: url('../fonts/leaguespartan-bold-webfont.eot');
     src: url('../fonts/leaguespartan-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/leaguespartan-bold-webfont.woff2') format('woff2'),
-         url('../fonts/leaguespartan-bold-webfont.woff') format('woff'),
-         url('../fonts/leaguespartan-bold-webfont.ttf') format('truetype'),
-         url('../fonts/leaguespartan-bold-webfont.svg#league_spartanregular') format('svg');
+         url('../fonts/leaguespartan-bold-webfont.otf') format('opentype'),
+         url('leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('leaguespartan-bold-webfont.woff') format('woff'),
+         url('leaguespartan-bold-webfont.ttf') format('truetype'),
+         url('leaguespartan-bold-webfont.svg#league_spartanregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
