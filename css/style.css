@@ -247,9 +247,6 @@ p {
     margin-bottom: 1rem;
     padding: 0;
 }
-#fb_icon {
-    width: 40px;
-}
 
 /* FOR ALL DEVICES LARGER THAN 550px wide*/
 @media (min-width: 550px) {
