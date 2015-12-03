@@ -236,6 +236,9 @@ p {
 /* FOR ALL DEVICES LARGER THAN 550px wide*/
 @media (min-width: 550px) {
     #splash.bg-orange {
+        height: 100%;
+        height: -webkit-calc(100% - 4rem);
+        height: -moz-calc(100% - 4rem);
         height: calc(100% - 4rem);
     }
     .navbar ul li {
