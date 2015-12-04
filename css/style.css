@@ -98,13 +98,13 @@ p {
     padding-top: 2rem;
     text-align: center;
     background: url(../imgs/bgfallbackwhite.png);
-    background: url(../imgs/bgblack.svg), linear-gradient(transparent, transparent);
+    background: none, url(../imgs/bgblack.svg);
     background-size: 100% 100%;
 }
 #splash.bg-orange {
     padding-top: 0;
-    /*background: url(../imgs/bgfallbackorange.png);*/
-    background: url(../imgs/bg.svg);
+    background: url(../imgs/bgfallbackorange.png);
+    background: none, url(../imgs/bg.svg);
     background-size: 100% 100%;
     height: 100%;
 }
