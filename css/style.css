@@ -1,22 +1,34 @@
 @font-face {
     font-family: 'LeagueSpartan';
-    src: url('../fonts/leaguespartan-bold-webfont.eot');
-    src: url('../fonts/leaguespartan-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/leaguespartan-bold-webfont.otf') format('opentype'),
-         url('leaguespartan-bold-webfont.woff2') format('woff2'),
-         url('leaguespartan-bold-webfont.woff') format('woff'),
-         url('leaguespartan-bold-webfont.ttf') format('truetype'),
-         url('leaguespartan-bold-webfont.svg#league_spartanregular') format('svg');
+    src: url('../fonts/leaguespartan/leaguespartan-bold-webfont.eot');
+    src: url('../fonts/leaguespartan/leaguespartan-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguespartan/leaguespartan-bold-webfont.otf') format('opentype'),
+         url('../fonts/leaguespartan/leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('../fonts/leaguespartan/leaguespartan-bold-webfont.woff') format('woff'),
+         url('../fonts/leaguespartan/leaguespartan-bold-webfont.ttf') format('truetype'),
+         url('../fonts/leaguespartan/leaguespartan-bold-webfont.svg#league_spartanregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'ptsans-regular';
+    src: url('../fonts/ptsans/PTS55F-webfont.eot');
+    src: url('../fonts/ptsans/PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ptsans/PTS55F-webfont.woff') format('woff'),
+         url('../fonts/ptsans/PTS55F-webfont.ttf') format('truetype'),
+         url('../fonts/ptsans/PTS55F-webfont.svg#pt_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 html, body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    font-family: "myriad-pro",sans-serif;
+    font-family: ptsans-regular, sans-serif;
     font-size: 1rem;
 }
 
