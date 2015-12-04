@@ -119,14 +119,14 @@ p {
     padding-top: 2rem;
     text-align: center;
     background: url(../imgs/bgfallbackwhite.png);
-    background: none, url(../imgs/bgblack.svg);
+    background: linear-gradient(transparent, transparent),  url(../imgs/bgblack.svg);
     background-size: 100% 100%;
 }
 #splash.bg-orange {
     position: relative;
     padding-top: 0;
     background: url(../imgs/bgfallbackorange.png);
-    background: none, url(../imgs/bg.svg);
+    background: linear-gradient(transparent, transparent),  url(../imgs/bg.svg);
     background-size: 100% 100%;
     height: 100%;
 }
@@ -225,7 +225,7 @@ p {
     color: white;
     text-align: left;
     background: url(../imgs/bgfallbackorange.png);
-    background: none, url(../imgs/bgpoem.svg);
+    background: linear-gradient(transparent, transparent), url(../imgs/bgpoem.svg);
     background-size: 100% 100%;
     height: 6rem;
     overflow: hidden;
