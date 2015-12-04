@@ -104,7 +104,7 @@ p {
 #splash.bg-orange {
     padding-top: 0;
     background: url(../imgs/bgfallbackorange.png);
-    background: url(../imgs/bg.svg), linear-gradient(transparent, transparent);
+    /*background: url(../imgs/bg.svg), linear-gradient(transparent, transparent);*/
     background-size: 100% 100%;
     height: 100%;
 }
