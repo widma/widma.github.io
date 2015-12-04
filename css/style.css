@@ -211,9 +211,8 @@ p {
 }
 #toc .poemtitle {
     line-height: 1.2rem;
-    font-size: 1.4rem;
-    text-transform: lowercase;
-    font-variant: small-caps;
+    font-size: 1rem;
+    text-transform: uppercase;
 }
 .highlight {
     font-family: LeagueSpartan, 'Arial Black';
