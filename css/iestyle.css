@@ -1,42 +1,39 @@
 #splash.bg-orange {
     width: 100%;
     height: 100%;
-    height: -webkit-calc(100% - 4rem);
-    height: -moz-calc(100% - 4rem);
-    height: calc(100% - 4rem);
+    height: -webkit-calc(100% - 4em);
+    height: -moz-calc(100% - 4em);
+    height: calc(100% - 4em);
 }
 .navbar ul li {
     display: inline;
-    padding: 0 2rem;
+    padding: 0 2em;
     margin: 0;
     border-right: 1px solid black;
 }
 .navbar ul li:last-of-type {
     border-right: 0px;
 }
-
 .profilepic {
     width: 15%;
     height: auto;
     float: left;
-    margin-right: 1rem;
+    margin-right: 1em;
     margin-bottom: 0rem;
 }
 .addslimspace {
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.2em;
 }
 .poem .header .name {
-    padding-top: 1.5rem;
+    padding-top: 1.5em;
     padding-left: 0;
-    margin-left: 1.5rem;
+    margin-left: 1.5em;
     font-size: 1.2em;
-    font-size: 1.2rem;
     letter-spacing: 0.1em;
 }
 .poem .header .biolink {
-    margin-left: 1.5rem;
+    margin-left: 1.5em;
     font-size: 1em;
-    font-size: 1rem;
 }
 #toc {
     text-align: center;
