@@ -32,12 +32,3 @@
     margin-left: 1.5em;
     font-size: 1em;
 }
-#toc {
-    text-align: center;
-}
-#toc .left {
-    text-align: right;
-}
-#toc .right {
-    text-align: left;
-}
