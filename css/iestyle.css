@@ -14,6 +14,10 @@
 .navbar ul li:last-of-type {
     border-right: 0px;
 }
+.staffmember {
+    margin: 3em 0;
+}
+
 .profilepic {
     width: 15%;
     height: auto;
