@@ -101,6 +101,9 @@ a.current {
 .center-align {
     text-align: center;
 }
+.justify-align {
+    text-align: justify;
+}
 /*END UTILITIES*/
 
 /*GENERAL*/
