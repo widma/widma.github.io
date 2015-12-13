@@ -247,6 +247,9 @@ p {
 .greyed {
     opacity: 0.8;
 }
+.essay {
+    font-size: 0.8rem;
+}
 .poem {
     text-align: center;
 }
@@ -281,6 +284,7 @@ p {
     color: white;
 }
 .poem .bio {
+    font-size: 0.9rem;
     display: none;
     text-align: justify;
     margin-top: 1em;
@@ -289,6 +293,7 @@ p {
     margin-bottom: 2rem;
 }
 .poem .poem-body {
+    font-size: 0.8rem;
     text-align: left;
     margin: 0 auto;
     margin-top: 2em;
