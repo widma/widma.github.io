@@ -336,20 +336,13 @@ p {
     }
     
     .profilepic {
-        display: inline;
-        width: 15%;
-        height: auto;
-        float: left;
-        margin-right: 1rem;
-        margin-bottom: 1rem;
+        width: 100%;
     }
-    .staffinfo {
-        float: left;
-        width: 82%;
+    .columns {
     }
-    .staffinfo h3 {
+    
+    .staffmember h3 {
         margin-top: -.35rem;
-        padding-top: 0;
     }
     .addslimspace {
         margin-bottom: 0.2rem;
