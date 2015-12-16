@@ -333,14 +333,10 @@ p {
     }
     .navbar ul li:last-of-type {
         border-right: 0px;
-    }
-    
+    }    
     .profilepic {
         width: 100%;
     }
-    .columns {
-    }
-    
     .staffmember h3 {
         margin-top: -.35rem;
     }
