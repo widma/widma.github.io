@@ -356,6 +356,9 @@ p {
         font-size: 1em;
         font-size: 1rem;
     }
+    .xxl {
+        width: 100% !important;
+    }
     #toc {
         text-align: center;
     }
@@ -364,5 +367,12 @@ p {
     }
     #toc .right {
         text-align: left;
+    }
+}
+
+/* Larger than desktop HD */
+@media (min-width: 1200px) {
+    .xxl {
+        width: 48% !important;
     }
 }
