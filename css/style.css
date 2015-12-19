@@ -45,7 +45,7 @@ html, body {
 
 /*IMAGES*/
 img.border {
-    border: 1px solid #F3B79B;
+    border: 1px solid #A5A05E;
 }
 
 /*HEADERS*/
@@ -84,13 +84,13 @@ a {
     text-decoration: none;
 }
 .orange-link {
-    color: #F3B79B;
+    color: #A5A05E;
 }
 a:hover {
-    color: #F3B79B;
+    color: #A5A05E;
 }
 a.current {
-    color: #F3B79B;
+    color: #A5A05E;
 }
 /*END LINK STYLING*/
 
@@ -187,7 +187,7 @@ p {
     margin-bottom: 0;
 }
 .navbar.decked {
-    border-top: 1px solid #F3B79B;
+    border-top: 1px solid #A5A05E;
 }
 .navbar ul {
     display: block;
@@ -215,7 +215,7 @@ p {
 
 /*CURRENT ISSUE PAGE*/
 .underline {
-    border-bottom: 1px solid #F3B79B;
+    border-bottom: 1px solid #A5A05E;
 }
 .addspace {
     margin-bottom: 1em;
