@@ -293,7 +293,7 @@ p {
     margin-bottom: 2rem;
 }
 .poem .poem-body {
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     text-align: left;
     margin: 0 auto;
     margin-top: 2em;
@@ -302,6 +302,7 @@ p {
     margin-bottom: 3rem;
     display: inline-block;
 }
+
 /*END CURRENT ISSUE PAGE*/
 
 /*FOOTER*/
