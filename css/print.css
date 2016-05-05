@@ -13,8 +13,8 @@ h1 {
     font-size: 1rem;
 }
 h2 {
-    font-size: 1.2em;
-    font-size: 1.2rem;
+    font-size: 1em;
+    font-size: 1rem;
 }
 h3 {
     font-size: 1em;
@@ -32,5 +32,9 @@ h4 {
     font-size:5rem;
 }
 .navbar {
+    display:none;
+}
+
+#fb_icon {
     display:none;
 }
