@@ -1,14 +1,10 @@
-<svg
-    version="1.1"
-    id="Fleuron 1"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    x="0px" y="0px"
-    width="100%"
-    height="100%"
-    viewBox="0 0 100 100">
-
-    <polygon fill="#A5A05E" points="0.631,79.018 15.018,78.889 37.889,56.889 40.807,59.553 19.881,79.229 34.268,79.107 
-	58.127,56.143 62.252,56.127 98.76,56.127 98.666,45.713 62.252,45.713 57.99,45.697 34.268,23.162 19.881,23.045 40.072,41.779 
-	37.447,44.264 15.018,22.951 0.631,22.834 30.865,50.471 "/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Fleuron_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="362.83px" height="272.129px" viewBox="0 0 362.83 272.129" enable-background="new 0 0 362.83 272.129"
+	 xml:space="preserve">
+<polygon fill="#FADF06" points="47.067,215.032 86.219,214.68 148.458,154.812 156.398,162.061 99.452,215.606 138.604,215.274 
+	203.531,152.782 214.757,152.739 314.105,152.739 313.85,124.399 214.757,124.399 203.158,124.355 138.604,63.031 99.452,62.712 
+	154.398,113.693 147.254,120.456 86.219,62.457 47.067,62.138 129.343,137.346 "/>
 </svg>
