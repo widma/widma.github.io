@@ -141,7 +141,7 @@ p {
     padding-top: 2rem;
     text-align: center;
     background: url(../imgs/backgrounds/bgfallbackwhite.png);
-    background: linear-gradient(transparent, transparent),  url(../imgs/backgrounds/bg.svg);
+    background: linear-gradient(transparent, transparent),  url(../imgs/backgrounds/bgblack.svg);
     background-size: 100% 100%;
 }
 #splash.bg-orange {
