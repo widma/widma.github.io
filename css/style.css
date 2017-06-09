@@ -156,7 +156,8 @@ p {
 }
 #splashtitle {
     display: inline-block;
-    text-align: right;
+    text-align: center;
+    vertical-align: middle;
     margin: 0 auto;
     padding: 0px;
 }
