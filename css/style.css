@@ -144,12 +144,13 @@ p {
     border-width: 0;
     background-color: #FADF06;
     background-size: 100% 100%;
+    background: url(../imgs/backgrounds/bgfallbackorange.png);
+    background: linear-gradient(transparent, transparent),  url(../imgs/backgrounds/bg.svg);
 }
 #splash.bg-orange {
     position: relative;
     padding-top: 0;
-/*    background: url(../imgs/backgrounds/bgfallbackorange.png);
-*/
+    background: url(../imgs/backgrounds/bgfallbackorange.png);
     background: linear-gradient(transparent, transparent),  url(../imgs/backgrounds/bg.svg);
     background-size: 100% 100%;
     height: 100%;
