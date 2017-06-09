@@ -140,11 +140,9 @@ p {
     padding-top: 2em;
     padding-top: 2rem;
     text-align: center;
-    border-style: solid;
-    border-width: 0;
-    background-size: 100% 100%;
-    background: url(../imgs/backgrounds/bgfallbackorange.png);
+    background: url(../imgs/backgrounds/bgfallbackwhite.png);
     background: linear-gradient(transparent, transparent),  url(../imgs/backgrounds/bg.svg);
+    background-size: 100% 100%;
 }
 #splash.bg-orange {
     position: relative;
